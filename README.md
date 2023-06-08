@@ -38,4 +38,4 @@ As a start, we want to propose the creation of a non for profit, open source fra
 - a framework to fine-tune enlightened LLMs
 
 
-[![Watch the video](https://youtu.be/bDttLQBbpbo)](https://youtu.be/bDttLQBbpbo)
+[![Intro interview with Riccardo Vittoria]](https://youtu.be/bDttLQBbpbo)
