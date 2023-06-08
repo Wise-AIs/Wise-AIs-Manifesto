@@ -35,4 +35,7 @@ It seems that we have the opportunity to shepherd society towards the developmen
 As a start, we want to propose the creation of a non for profit, open source framework to train all these LLM application toward enlightened LLMs.
 - a UI/UX guideline
 - a dataset from the wisest human beings that can be used to perform reinforcement learning to any LLM application 
-- a framework to fine-tune enlightened LLMs 
+- a framework to fine-tune enlightened LLMs
+
+
+[![Watch the video]](https://youtu.be/bDttLQBbpbo)
