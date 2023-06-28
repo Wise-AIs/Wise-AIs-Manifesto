@@ -1,41 +1,32 @@
 # Wise-AIs-Manifesto
 
-Whether we want to or not, the "LLM race" has begun. ChatGPT is best thought of as the starting gun of this race. Market forces will dictate that soon every large tech company will make substantial investments in developing LLMs. We predict a Moore's Law type phenomenon, that LLM capabilities will continue to increase exponentially until they slow down and current methods hit some sort of "glass ceiling".
+In every walk of life, from individuals to chatbots, behaviour is guided by identifiable patterns, both implicit and explicit. These patterns reflect an underlying hierarchy of values shaping the agent’s actions. This hierarchical construct arises from the fact that values often conflict with each other or vary in significance. For instance, in medical ethics, the sanctity of life is paramount but often weighed against other factors like patient autonomy and quality of life.
 
-Current models are trained on truly massive corpora. For example, GPT-3 was trained on the CommonCrawl, which is an open repository of web crawl data.
+As AI matures, tool-wielding chatbots are finding more applications, from administrative roles to customer service and software development assistance. Their ubiquity in society is seemingly inevitable, eventually becoming a universal aspect of everyday life.
 
-In some sense, it wouldn't be unreasonable to think of GPT-3 and models of that scale as distillations of humanity's distributed knowledge, within a single "machine".
+Moore's Law, an observation about the rate of technological growth, is propelled by market competition, efficiency gains from increasing experience, among other factors. In terms of chatbots built on sequence-to-sequence models, the limits of scaling—whether in parameters or computational power—are uncertain. That is, it’s not clear when we’ll hit a “glass ceiling” of model performance with current methods. But even if we do, it’s possible that it’ll be the end of one sigmoid curve, and will condition the start of another. That is, it appears that we're on the brink of a new form of Moore's Law, characterised by some fundamental relationship between "intelligence per dollar". GPT-4 serves as the starting gun, not the final destination. The profound societal impact of Moore's Law only hints at the potential implications of this novel version of it. 
 
-Decoder-only models like GPT-3 are trained with a next-token prediction objective. That is, they're trained in such a way that given some "context", they're asked to predict the next "token" in a sequence. To make them usable in conversational settings, they have to be "fine-tuned" using conversational data. That is, on datasets where the context explicitly contains conversational content.
+Our inherent human tendency towards a negativity bias often leads us to focus more on the numerous potential dangers that could arise from AI development, some of which could have existential consequences for humanity. Recognizing and engaging with these risks is crucial to prevent catastrophic outcomes. However, alongside this vigilance, it’s equally vital to articulate a positive future guided by the benefits of AI, a future we actively aspire to achieve.
 
-There are many examples where models like GPT-3 can suddenly engage in many different personalities. One can speculate that fine-tuning these models can prevent them from falling back into some form of mean-reversion, and help them understand what "mode" they're supposed to engage in. That is, fine-tuning helps them become more aligned to a specific "persona".
+As previously mentioned, tool-wielding chatbots inevitably align with a hierarchy of values, either implicitly or explicitly. Typically, these chatbots acquire an implicit alignment from the data used for pretraining, or from datasets they've been fine-tuned or RLHF'd on. However, what if we could make this alignment more explicit? Could we explicitly align them with higher human values such as wisdom and compassion, and create industry-wide best practices for doing so?
 
-So the data we use for fine-tuning these models is actually quite important.
+## A Positive Vision for AI
+Imagine the best person you've ever met, in terms of their wisdom, compassion and patience. What if we could translate the essence of such individuals into a digital customer service representative, administrative assistant or a software engineering assistant? What would it mean for society to regularly interact with endlessly patient, compassionate, empathetic and wise AI agents? How would habitual exposure to such pro-social experiences shape our own behaviour and our treatment of one another, accelerated via network effects?
 
-These models are starting to be deployed in roles that would have previously been occupied by humans. For example, as customer service representatives, administrative assistants, etc.
+Envision an AI tool that collaborates with you, provides assistance in your tasks, and taps into the entirety of human knowledge. It doesn't simply facilitate your tasks but considers your aspirations for self-improvement and personal transformation. As it aids you, it seeks ways to manifest your ideal self, aiming to enhance your character in alignment with your tasks. That is, it seeks to increase your agency in the world, and encourages you towards ideals that you consider to be of the highest importance.
 
-When these models are deployed in these scenarios, it's difficult to do so without some notion of a "personality" being projected onto them. Humans are wired to parse human-like entities as having personalities and motivations. Indeed, it might be inevitable that these chatbots get imbued with some sort of personality.
+As more people engage with such an AI, the data from these interactions can refine the AI's capabilities and better align it with human preferences. This, in turn, enables users to more effectively realise their ideal selves.
 
-It also seems inevitable that these chatbots will ultimately be asked to form opinions and make decisions in the real world. In a broad sense, all normative guidance can be said to be rooted in some hierarchy of values. The hierarchy part comes in when there are conflicting values or when some values are considered more important than others. For example, in medical ethics, the value of preserving life is often considered paramount, but it must sometimes be balanced against other values such as patient autonomy and quality of life.
+## Proposal
+It's improbable that we'll reach global consensus on what humanity’s highest values are, or the specific definitions of "wisdom" and "compassion”. There’s unlikely to be a single instantiation of this positive vision for AI that would satisfy all of humanity simultaneously. Rather, the goal of this letter is to bring attention to this issue, and to start a conversation.
 
-Even in the way these models are trained, they're implicitly trained on human preferences and values. For example, in the InstructGPT paper, they perform a procedure called Reinforcement Learning from Human Feedback (RLHF), where human preferences from side-by-side examples are collected to train the model.
+The signatories of this letter acknowledge the following:
 
-If we're going to deploy models that are human-like, why not explicitly design them to emulate the qualities we as a society hold in the highest regard? That is, why not explicitly design models that are as wise and compassionate as possible as technologically feasible?
+These advanced models, despite the hype surrounding their potential capabilities, represent a significant leap forward and must be taken seriously.
 
-Not only would this be good for the world, it would be deeply commercially valuable for companies that buy into this vision. Imagine the wisest and most compassionate person you've ever met. What would it be like if for a day, they worked as a customer service representative. Now what if you could somehow put that person inside a box, and scale them across all customer service interactions in your business, with no loss of quality? That would likely substantially improve your customer satisfaction. What sort of impact would that have on your bottom line?
+Beyond simply creating "safe" or "harmless" agents, we should aim higher. Our goal should be to deliberately and consciously mould these agents to embody our highest human values, while actively mitigating any "implicit" value alignment, particularly along less desirable values. Furthermore, we should facilitate the development of various versions of these agents based on different interpretations of "wisdom", "compassion", or any other human virtues.
 
-Instead of merely automating these roles, what if we automated them in such a way that our society was inundated with compassion and wisdom?
-
-Instead of technology divorcing us from other people, we have the opportunity to build truly "humane" technology.
-
-As a society, the genie is out of the bottle. We're on the pathway towards the collective development of a superintelligent artificial intelligence. But we're not passive observers. How we choose to show up in the world, day in and day out, has a direct impact on what will ultimately get developed. Because you see, these models learn from the aggregated preferences of society. They learn from us. What if we used them to amplify the best in us? Instead of merely inundating us in hallucinated bullshit?
-
-It seems that we have the opportunity to shepherd society towards the development of truly enlightened beings, or amoral and neutral commercial optimizers, or something very far on the other side of the spectrum.
-
-As a start, we want to propose the creation of a non for profit, open source framework to train all these LLM application toward enlightened LLMs.
-- a UI/UX guideline
-- a dataset from the wisest human beings that can be used to perform reinforcement learning to any LLM application 
-- a framework to fine-tune enlightened LLMs
+We need to invest in the research to make this vision achievable and to translate this research into scalable products.
 
 
 [![Intro interview with Riccardo Vittoria]](https://youtu.be/bDttLQBbpbo)
