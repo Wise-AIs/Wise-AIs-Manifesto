@@ -28,11 +28,12 @@ Beyond simply creating "safe" or "harmless" agents, we should aim higher. Our go
 
 We need to invest in the research to make this vision achievable and to translate this research into scalable products.
 
+## Watch
+[Intro interview with Riccardo Vittoria](https://youtu.be/bDttLQBbpbo)
+
 ## Sign
 [Sign the case for Wise AI](https://forms.gle/XTeMiRPByLHA3rRp7)
 
-
-## Watch
-[Intro interview with Riccardo Vittoria](https://youtu.be/bDttLQBbpbo)
+## Signatories
 
 
