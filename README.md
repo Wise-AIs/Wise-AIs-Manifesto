@@ -1,4 +1,4 @@
-# Wise-AIs-Manifesto
+# A case for Wise AIs
 
 In every walk of life, from individuals to chatbots, behaviour is guided by identifiable patterns, both implicit and explicit. These patterns reflect an underlying hierarchy of values shaping the agent’s actions. This hierarchical construct arises from the fact that values often conflict with each other or vary in significance. For instance, in medical ethics, the sanctity of life is paramount but often weighed against other factors like patient autonomy and quality of life.
 
